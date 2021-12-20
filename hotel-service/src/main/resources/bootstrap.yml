@@ -8,10 +8,13 @@ spring:
     config:
       enabled: true
       uri: http://localhost:9095
-  datasource:    url: jdbc:mysql://localhost:3306/hoteldb1
+  datasource:
+    url: jdbc:mysql://localhost:3306/hoteldb1
     username: root
-    password: Yappi@2017
-  jpa:    hibernate:      ddl-auto: update
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
       
 logging:
   level:
