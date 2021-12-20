@@ -10,7 +10,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/hoteldb1
     username: root
-    password: Yappi@2017
+    password: root
   jpa:
     hibernate:
       ddl-auto: update  
